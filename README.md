@@ -60,3 +60,25 @@ ALGORITMO PARA VALIDAR CPF
 Agora que já aprendemos como acontece a validação de um CPF, vamos ver como ficaria um algoritmo para validar CPF. Vamos escrever o algoritmo em Portugal utilizando o Visualg.
 
 No algoritmo abaixo, eu criei uma função chamada validaCPF(cpf:CARACTER) que retorna verdadeiro ou falso se o CPF for ou não válido.
+
+
+Perceba que testamosa nossa função com três CPFs, um inválido e outro válido e um inválido conhecido. O resultado da execução deste algoritmo é esse.
+
+O CPF 123.456.789-12 é inválido!
+O CPF 529.982.247-25 é válido!
+O CPF 777.777.777-77 é inválido!
+Também utilizei algumas funções pré-definidas pelo Visualg para extrair cada caracter da variável cpf e para convertê-los em números inteiros. As funções que utilizei foram:
+
+Caracpnum (c : caracter): inteiro
+Esta função serve para converter um valor do tipo texto em um valor do tipo inteiro
+Copia (c : caracter ; p, n : inteiro): caracter
+Esta função serve para extrair sub-textos de variáveis texto.
+Ela recebe três parâmetros, o primeiro é o texto de onde vamos extrair o sub-texto, o segundo é a posição de inicio do sub-texto e o terceiro parâmetro é a quantidade de caracteres que vamos extrair.
+No nosso caso, nós extraímos os dígitos do cpf através da função copia e convertemos o resultado desta função em inteiro através da função caracpnum.
+
+Por exemplo, para o cpf "529.982.247-25" a linha abaixo atribui o valor inteiro 8 à variável num5, pois este é o caracter da posição 6 (contando o caracter ponto ".").
+
+num5 := Caracpnum( Copia(cpf, 6, 1) )
+Outro detalhe interessante é o operador mod que retorna o resto da divisão.
+
+Claro que pode-se implementar de outras formas, com Vetores, LOOPs, etc. Entretanto eu tentei implementar de uma forma mais simples de entender a regra.
