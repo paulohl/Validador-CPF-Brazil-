@@ -1,3 +1,4 @@
+      // Algorithm in VisualG 2.0 - Iberia Portuguese
 algoritmo "Validação de CPF"
 
 funcao validaCPF(cpf:CARACTER) : LOGICO
