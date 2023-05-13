@@ -81,3 +81,5 @@ num5 := Caracpnum( Copia(cpf, 6, 1) )
 Outro detalhe interessante é o operador mod que retorna o resto da divisão.
 
 Existem outras formas para implementar a lógica, por exemplo, com Vetores, LOOPs, etc. 
+
+# Author: Gustavo Furtado de Oliveira Alves
