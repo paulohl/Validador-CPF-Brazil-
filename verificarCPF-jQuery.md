@@ -7,6 +7,7 @@ Inclua os dois scripts em seu HTML, imediatamente antes de fechar a tag head, co
 <script type="text/javascript" src="js/jquery.maskedinput-1.1.4.pack.js"/></script>
 </head>
 
+
 Em seguida, na linha seguinte da inclusão, inicialize a máscara com jQuery da seguinte forma:
 
 <script type="text/javascript">
