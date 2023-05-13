@@ -1,6 +1,7 @@
 # Validador CPF (Cadastro de Pessoa Física) - Brazil (Algorítmo para Validar CPF)
 
 **Algorithm source code written in VisualG 2.0 - Iberia Portuguese**
+**Source file name CPF_Verificador.ALG**
 
 O número de CPF para ser válido não basta apenas atender à máscara "###.###.###-##" (o caractere '#' representa um número), existe uma regra matemática que também deve ser verificada para um CPF ser considerado válido.
 
