@@ -1,5 +1,6 @@
       //algoritmo "Validação de CPF"
       //Author: Gustavo Furtado de Oliveira Alves
+      //Algorithm in VisualG 2.0 - Iberia Portuguese
 
 funcao validaCPF(cpf:CARACTER) : LOGICO
 var
