@@ -4,8 +4,8 @@
  * 
  * The CPF_CNPJ class provides methods 
  * to define and validate
- * Cadastro de Pessoas Físicas (CPF)
- * and Cadastro de Pessoas Jurídicas (CNPJ)
+ * Cadastro de Pessoas FÃ­sicas (CPF)
+ * and Cadastro de Pessoas JurÃ­dicas (CNPJ)
  * brazilian numbers.
  * 
  * 
@@ -61,7 +61,7 @@ class CPF_CNPJ{
     public function __construct($CPF_CNPJ) {
         $this->CPF_CNPJ = $CPF_CNPJ;
         if(!$this->getNumeral()){
-            throw new Exception('CPF ou CNPJ não confere.');
+            throw new Exception('CPF ou CNPJ nÃ£o confere.');
         }
     }
     public function __toString() {
@@ -77,7 +77,7 @@ class CPF_CNPJ{
 //    echo $cpfOrCnpj;
 //    echo $cpfOrCnpj->getTipo();
 //} catch (Exception $e){
-//    echo "Exce��o: ".$e->getMessage();
+//    echo "Exceção: ".$e->getMessage();
 //}
 //
 
@@ -86,6 +86,6 @@ class CPF_CNPJ{
 //    echo $cpfOrCnpj;
 //    echo $cpfOrCnpj->getTipo();
 //} catch (Exception $e){
-//    echo "Exce��o: ".$e->getMessage();
+//    echo "Exceção: ".$e->getMessage();
 //}
 //
