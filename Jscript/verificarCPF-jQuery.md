@@ -1,4 +1,4 @@
-Inclua os dois scripts em seu HTML, imediatamente antes de fechar a tag head, como na ilustração abaixo:
+Include both scripts in the HTML, immediately  before closing the head tag, as per the example below:
 
 ```javascript
 <head>
@@ -9,7 +9,7 @@ Inclua os dois scripts em seu HTML, imediatamente antes de fechar a tag head, co
 </head>
 ```
 
-  Em seguida, na linha seguinte da inclusão, inicialize a máscara com jQuery da seguinte forma:
+  Next, in the followinb line after the inclusion, initialize the JQuery mask as per the example below:
 
 ```javascript
 <script type="text/javascript"
@@ -18,17 +18,14 @@ Inclua os dois scripts em seu HTML, imediatamente antes de fechar a tag head, co
         });
         </script>
 ```
-
-
-  Agora basta criar seu formulário e utilizar o atributo id='cpf' no campo de CPF:
+  Next, create the form utilizing the attribute id='cpf' in the CPF field:
 
 ```javascript
 <form name="form" method="post" action="">
         <input name="cpf" type="text" id="cpf"/>
-      	</form>
+      	</form
 ```
+  The CPF mask should be working at this point. Note that the script prevents typing chatacters other then numbers.
+  Test this feature by typing letters or any special character in the field to see the script behavior.
 
-  Pronto! A máscara de CPF já estará funcionando! Note que o script já impede a digitação de caracteres diferentes de números. 
-Tente pressionar no campo de exemplo abaixo letras, ponto, traço ou outros caracteres especiais e verifique como o script se comporta.
-
-  Caso o usuário interrompa a digitação sem preencher os 11 números necessários e mude de campo, o script automaticamente limpa o valor preenchido assumindo uma condição de erro.
+  If the user interrupts typing all the 11 numbers and jumps to other field, the script will automatically clears whatever was entered and returns an error.
