@@ -1,4 +1,5 @@
       //algoritmo "Validação de CPF"
+      //Author: Gustavo Furtado de Oliveira Alves
 
 funcao validaCPF(cpf:CARACTER) : LOGICO
 var
