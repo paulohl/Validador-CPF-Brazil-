@@ -8,20 +8,20 @@ O primeiro dígito verificador do CPF é calculado utilizando-se o seguinte algo
 
 1. Distribua os 9 primeiros dígitos em um quadro colocando os pesos 10, 9, 8, 7, 6, 5, 4, 3, 2 abaixo da esquerda para a direita, conforme representação abaixo:
 
-1	1	1	4	4	4	7	7	7
-10	9	8	7	6	5	4	3	2
+   1	1	1	4	4	4	7	7	7
+   10	9	8	7	6	5	4	3	2
 
 2. Multiplique os valores de cada coluna:
 
-1	1	1	4	4	4	7	7	7
-10	9	8	7	6	5	4	3	2
-10	9	8	28	24	20	28	21	14
+   1	1	1	4	4	4	7	7	7
+   10	9	8	7	6	5	4	3	2
+   10	9	8	28	24	20	28	21	14
 
 3. Calcule o somatório dos resultados (10+9+...+21+14) = 162
 
 4. O resultado obtido (162) será divido por 11. Considere como quociente apenas o valor inteiro, o resto da divisão será responsável pelo cálculo do primeiro dígito verificador.
 
-Vamos acompanhar: 162 dividido por 11 obtemos 14 como quociente e 8 como resto da divisão. Caso o resto da divisão seja menor que 2, o nosso primeiro dígito verificador se torna 0 (zero), caso contrário subtrai-se o valor obtido de 11, que é nosso caso. Sendo assim nosso dígito verificador é 11-8, ou seja, 3 (três). Já temos portanto parte do CPF, confira: 111.444.777-3X.
+**Vamos acompanhar**: 162 dividido por 11 obtemos 14 como quociente e 8 como resto da divisão. Caso o resto da divisão seja menor que 2, o nosso primeiro dígito verificador se torna 0 (zero), caso contrário subtrai-se o valor obtido de 11, que é nosso caso. Sendo assim nosso dígito verificador é 11-8, ou seja, 3 (três). Já temos portanto parte do CPF, confira: 111.444.777-3X.
 
 ## Calculando o Segundo Dígito Verificador
 
