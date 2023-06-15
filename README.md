@@ -6,6 +6,8 @@
 
 O número de CPF para ser válido não basta apenas atender à máscara "###.###.###-##" (o caractere '#' representa um número), existe uma regra matemática que também deve ser verificada para um CPF ser considerado válido.
 
+![alt text](http://visa4brazil.com/wp-content/uploads/CPF-REQUIREMENTS-IN-BRAZIL-RIO-APARTMENT-BUYING_1.jpg)
+
 ## REGRA PARA VALIDAR CPF
 O cálculo para validar um CPF é especificado pelo Ministério da Fazenda do Brasil, que disponibiliza no próprio site as funções (em javascript) para validação do CPF, seguindo a seguinte regra lógica:
 
