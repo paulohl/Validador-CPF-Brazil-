@@ -1,4 +1,5 @@
-# Validador CPF (Cadastro de Pessoa Física) - Brazil (Algorítmo para Validar CPF)
+# Validador CPF (Cadastro de Pessoa Física) - Brazil 
+## (Algorítmo para Validar CPF)
 
 **Algorithm source code written in VisualG 2.0 - Iberia Portuguese**
 
