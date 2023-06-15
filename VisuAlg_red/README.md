@@ -30,11 +30,15 @@ não distingue maiúsculas e minúsculas no reconhecimento de palavras-chave e n
 
 
 O formato básico do nosso pseudocódigo é o seguinte:
+```visualg
 algoritmo "semnome"
 // Função :
 // Autor :
 // Data : 
-// Seção de Declarações 
+// Seção de Declarações
+
 inicio
-// Seção de Comandos 
+// Seção de Comandos
+
 fimalgoritmo
+```
